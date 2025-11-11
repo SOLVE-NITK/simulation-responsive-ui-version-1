@@ -198,3 +198,8 @@ img {
   left: -5px;
   width: 103px; */
 }
+
+
+.hidden{
+  display:none;
+}

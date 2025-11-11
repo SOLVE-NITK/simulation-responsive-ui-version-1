@@ -83,7 +83,7 @@
 
 .table{
   border:0.15rem solid var(--clr-title-background3);
-   grid-row:1/3;
+   grid-row:1/4;
 /*  
   grid-column:2/3; */
   

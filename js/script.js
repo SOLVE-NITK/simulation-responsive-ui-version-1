@@ -944,3 +944,9 @@ function scrollToVariables(){
   const variablesLocation = document.querySelector(".var-controls");
   variablesLocation.scrollIntoView({ behavior: "smooth",block: 'center' });
 }
+
+const legendIconBtn = document.getElementById('legendIcon');
+legendIconBtn.addEventListener('click', () => {
+  const legend = document.querySelector('#legendImg');
+  legend.classList.toggle("hidden")
+});
